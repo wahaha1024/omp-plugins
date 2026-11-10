@@ -16,6 +16,11 @@
       "release-type": "node",
       "package-name": "gate",
       "component": "gate"
+    },
+    "plugins/zone-dividers": {
+      "release-type": "node",
+      "package-name": "zone-dividers",
+      "component": "zone-dividers"
     }
   }
 }

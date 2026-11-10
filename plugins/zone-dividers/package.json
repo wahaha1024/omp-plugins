@@ -1,0 +1,30 @@
+{
+  "name": "zone-dividers",
+  "version": "1.0.0",
+  "description": "Framed thinking divider and FINAL ANSWER marker for omp transcripts, with eight switchable styles",
+  "type": "module",
+  "license": "MIT",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "omp": {
+    "version": "1.0.0",
+    "description": "Framed thinking divider and FINAL ANSWER marker for omp transcripts",
+    "extensions": [
+      "index.ts"
+    ]
+  },
+  "keywords": [
+    "omp",
+    "oh-my-pi",
+    "pi-coding-agent",
+    "extension",
+    "tui",
+    "transcript",
+    "thinking"
+  ]
+}

@@ -1,5 +1,6 @@
 {
   "plugins/guard": "0.8.0",
   "plugins/history": "1.0.0",
-  "plugins/gate": "0.2.0"
+  "plugins/gate": "0.2.0",
+  "plugins/zone-dividers": "1.0.0"
 }
