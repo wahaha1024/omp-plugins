@@ -1,8 +1,8 @@
 {
-  "name": "casonadams-plugins",
+  "name": "wahaha1024-plugins",
   "description": "Extensions and plugins for oh-my-pi",
   "owner": {
-    "name": "Cason Adams"
+    "name": "wahaha1024"
   },
   "plugins": [
     {
@@ -10,28 +10,28 @@
       "description": "Security gatekeeper extension for shell execution using the configured guard/judge model role",
       "category": "security",
       "source": "./plugins/guard",
-      "homepage": "https://github.com/casonadams/omp-plugins"
+      "homepage": "https://github.com/wahaha1024/omp-plugins"
     },
     {
       "name": "history",
       "description": "Automatically syncs successful bash tool commands to your local zsh or bash history",
       "category": "utilities",
       "source": "./plugins/history",
-      "homepage": "https://github.com/casonadams/omp-plugins"
+      "homepage": "https://github.com/wahaha1024/omp-plugins"
     },
     {
       "name": "gate",
       "description": "Completion gate: blocks git commit until ripwire verification passes and asks for a Gate summary before a turn ends",
       "category": "quality",
       "source": "./plugins/gate",
-      "homepage": "https://github.com/casonadams/omp-plugins"
+      "homepage": "https://github.com/wahaha1024/omp-plugins"
     },
     {
       "name": "zone-dividers",
       "description": "Framed thinking divider and matching FINAL ANSWER marker for omp transcripts, with eight switchable styles",
       "category": "ui",
       "source": "./plugins/zone-dividers",
-      "homepage": "https://github.com/casonadams/omp-plugins"
+      "homepage": "https://github.com/wahaha1024/omp-plugins"
     }
   ]
 }

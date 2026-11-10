@@ -40,7 +40,7 @@ Examined sibling implementations:
 
 ## 6. Assumptions
 
-- GitHub Pages will be hosted at repo root URL `https://casonadams.github.io/omp-plugins/`.
+- GitHub Pages will be hosted at repo root URL `https://wahaha1024.github.io/omp-plugins/`.
 - Future plugins added to `marketplace.json` will be added to `www/` catalog (or rendered from shared data).
 
 ## 7. Risks

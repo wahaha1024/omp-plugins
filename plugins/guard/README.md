@@ -7,10 +7,10 @@ Evaluates shell commands and eval scripts (Python/IPython and JavaScript/Bun) be
 ## Quick Install
 
 ```sh
-omp plugin install guard@casonadams-plugins
+omp plugin install guard@wahaha1024-plugins
 ```
 
-> **Note:** The `@casonadams-plugins` qualifier is required. Running `omp plugin install guard` without it resolves to an unrelated package from the npm registry.
+> **Note:** The `@wahaha1024-plugins` qualifier is required. Running `omp plugin install guard` without it resolves to an unrelated package from the npm registry.
 
 ## Features
 
@@ -134,16 +134,16 @@ Upgrading requires fetching the latest release from GitHub into your local marke
 
 ```sh
 # 1. Fetch latest catalog metadata from GitHub
-omp plugin marketplace update casonadams-plugins
+omp plugin marketplace update wahaha1024-plugins
 
 # 2. Upgrade the plugin
-omp plugin upgrade guard@casonadams-plugins
+omp plugin upgrade guard@wahaha1024-plugins
 ```
 
-_(Or inside an interactive `omp` session: `/marketplace update casonadams-plugins` followed by `/marketplace upgrade guard@casonadams-plugins`)_
+_(Or inside an interactive `omp` session: `/marketplace update wahaha1024-plugins` followed by `/marketplace upgrade guard@wahaha1024-plugins`)_
 
 If you need to force a clean reinstall:
 
 ```sh
-omp plugin install guard@casonadams-plugins --force
+omp plugin install guard@wahaha1024-plugins --force
 ```

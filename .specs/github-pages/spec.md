@@ -6,7 +6,7 @@ Approved
 
 ## Problem
 
-`omp-plugins` (`casonadams-plugins`) provides extensions for `oh-my-pi` (`omp`), currently featuring the `guard` security gatekeeper plugin. However, there is no public web-accessible catalog or landing page. Users must browse the GitHub repository markdown to discover available plugins, find installation commands, and understand configuration prerequisites.
+`omp-plugins` (`wahaha1024-plugins`) provides extensions for `oh-my-pi` (`omp`), currently featuring the `guard` security gatekeeper plugin. However, there is no public web-accessible catalog or landing page. Users must browse the GitHub repository markdown to discover available plugins, find installation commands, and understand configuration prerequisites.
 
 ## Users and stakeholders
 
@@ -15,7 +15,7 @@ Approved
 
 ## Goals
 
-- Provide a fast, zero-build static landing page hosted on GitHub Pages (`https://casonadams.github.io/omp-plugins/`).
+- Provide a fast, zero-build static landing page hosted on GitHub Pages (`https://wahaha1024.github.io/omp-plugins/`).
 - Showcase the marketplace setup command and available plugins (starting with `guard`).
 - Provide one-click copyable installation commands and interactive documentation.
 - Maintain visual harmony with sibling tools (`rho`, `zload`) with dark/light theme support.
@@ -33,13 +33,13 @@ No `www/` directory exists. No GitHub Pages workflow exists. Users only have `RE
 
 ## Desired behavior
 
-1. Visiting the GitHub Pages URL loads a responsive web page showcasing `casonadams-plugins`.
+1. Visiting the GitHub Pages URL loads a responsive web page showcasing `wahaha1024-plugins`.
 2. A hero section displays the quick-start command to add the marketplace:
-   `omp plugin marketplace add casonadams/omp-plugins`
+   `omp plugin marketplace add wahaha1024/omp-plugins`
 3. A catalog grid displays available plugins:
    - Plugin name and category badge (`security`).
    - Short description of what it does.
-   - Quick install snippet (`omp plugin install guard@casonadams-plugins`) with a copy button.
+   - Quick install snippet (`omp plugin install guard@wahaha1024-plugins`) with a copy button.
    - Expandable details or modal showing configuration options (e.g. `GUARD_MODEL_ROLE`), requirements, and link to plugin README.
 4. Dark and light themes supported with toggle button and auto-detection matching system preference.
 5. GitHub Actions workflow `.github/workflows/pages.yml` automatically builds and publishes the `www/` artifact to GitHub Pages.
@@ -71,7 +71,7 @@ No `www/` directory exists. No GitHub Pages workflow exists. Users only have `RE
 ## Acceptance criteria
 
 - AC-001: Given a desktop or mobile browser, when the user visits `index.html`, the hero section displays the marketplace command with a working copy button.
-- AC-002: Given the plugin catalog, when browsing plugins, the `guard` plugin card is visible showing category `Security`, description, and `omp plugin install guard@casonadams-plugins`.
+- AC-002: Given the plugin catalog, when browsing plugins, the `guard` plugin card is visible showing category `Security`, description, and `omp plugin install guard@wahaha1024-plugins`.
 - AC-003: Given a user clicking a command copy button, the command is copied to clipboard and button displays transient "Copied!" feedback.
 - AC-004: Given the theme toggle button, when clicked, the page switches between dark and light themes, updating `localStorage`.
 - AC-005: Given a push to `main` with changes in `www/**` or `marketplace.json`, the Pages workflow triggers.

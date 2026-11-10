@@ -2,7 +2,7 @@
 
 ## Overview & Architecture
 
-`omp-plugins` is the official marketplace repository (`casonadams-plugins`) for `oh-my-pi` (`omp`) plugins and extensions.
+`omp-plugins` is the official marketplace repository (`wahaha1024-plugins`) for `oh-my-pi` (`omp`) plugins and extensions.
 
 - **Marketplace Manifests**:
   - `marketplace.json` (repository root) and `.omp-plugin/marketplace.json` define catalog metadata and published plugins. Both must remain in sync.
@@ -23,7 +23,7 @@ When adding, modifying, or removing a plugin, its configuration options, command
 2. **Repository README (`README.md`)**:
    - Add or update the plugin entry in the "Available Plugins" table with its category, description, and link.
    - Maintain accurate installation examples using the marketplace scope:
-     `omp plugin install <plugin-name>@casonadams-plugins`
+     `omp plugin install <plugin-name>@wahaha1024-plugins`
 3. **Showcase Website (`www/index.html`)**:
    - Add or update the plugin card in the catalog grid (`#catalog`).
    - Include the category tag (`data-category`), description, install snippet with copy button, key features list, and links to source/docs.

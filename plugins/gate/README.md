@@ -9,10 +9,10 @@ agent finishes a turn that changed source, it asks for a `Gate:` summary in the 
 ## Quick Install
 
 ```sh
-omp plugin install gate@casonadams-plugins
+omp plugin install gate@wahaha1024-plugins
 ```
 
-> **Note:** The `@casonadams-plugins` qualifier is required. Running `omp plugin install gate` without it resolves to an unrelated package from the npm registry.
+> **Note:** The `@wahaha1024-plugins` qualifier is required. Running `omp plugin install gate` without it resolves to an unrelated package from the npm registry.
 
 ## Prerequisites
 

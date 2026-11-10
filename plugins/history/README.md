@@ -7,10 +7,10 @@ Syncs successful `bash` tool commands executed during an `omp` session directly 
 ## Quick Install
 
 ```sh
-omp plugin install history@casonadams-plugins
+omp plugin install history@wahaha1024-plugins
 ```
 
-> **Note:** The `@casonadams-plugins` qualifier is required. Running `omp plugin install history` without it resolves to an unrelated package from the npm registry.
+> **Note:** The `@wahaha1024-plugins` qualifier is required. Running `omp plugin install history` without it resolves to an unrelated package from the npm registry.
 
 ## Features
 
